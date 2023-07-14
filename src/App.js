@@ -12,6 +12,7 @@ function App() {
 
   return (
     <div style={{ margin: "400px" }}>
+      <h1>Counter App</h1>
       <button onClick={handleInc}>+</button>
       <h5>Count : {count}</h5>
       <button onClick={handleDec}>-</button>
